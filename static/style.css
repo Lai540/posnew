@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 56px;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input[type="text"], form input[type="submit"] {
+    margin-top: 5px;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+.table {
+    margin-top: 20px;
